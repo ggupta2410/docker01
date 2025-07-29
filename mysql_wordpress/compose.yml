@@ -22,7 +22,7 @@ services:
       networks:
         - wordpress_network
       ports:
-        - '3306:3306'
+      -  "3306:3306"
 
         
     wordpress:
@@ -40,6 +40,6 @@ services:
       networks:
         - wordpress_network
       ports:
-        - '8080:80'
+        - "8080:80"
           
   
